@@ -1,0 +1,1074 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4448533034,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the landing page on the automation practice page",
+            "match": {
+              "location": "MyStepdefs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 916555774,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "carry out an online order with new customer registration",
+        "description": "",
+        "id": "online-order-feature;carry-out-an-online-order-with-new-customer-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 74000197,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User hover on the first image on the landing page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Item price should be \"$16.51\" on the landing page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Item name should \"Faded Short Sleeve T-shirts\" on th landing page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User click on  Add to Cart on the landing page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User should be able to see \"Product successfully added to your shopping cart\" on the shopping window popup",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Item name should be \"Faded Short Sleeve T-shirts\" on the shopping window popup",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Item Colour should be \"Orange\" on the shopping window popup",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Item Quantity should be \"1\" on the shopping window popup",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Item Colour should be \"$16.51\" on the shopping window popup",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User should be able to see \" There is 1 item in your cart.\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Item Total shipping should be \"$16.51\" on the shopping window popup",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "Item Total should be \"$18.51\" on the shopping window popup",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User click on th Proceed to checkout button on the shopping window popup",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "User should be able to see \"Shopping-cart summary\" on the Shopping-cart summary page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "Product column should display product image on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "Description column should display product description on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "Available column should display product \"In Stock\" on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "Unit Price column should display product \"$16.51\" on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "Available column should display product \"1\" on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "Total column should display product \"$16.51\" on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "user click on add button on the product quantity column",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 29,
+                "value": "# Summary page"
+              }
+            ],
+            "line": 30,
+            "name": "Total column should display product \"$33.02\" on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "Total Products should display product \"$33.02\" on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "Total shipping should display product \"$33.02\" on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "Total should display product \"$33.02\" on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "Tax should display product \"$33.02\" on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "Total should display product \"$33.02\" on the Shopping-cart summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "User click on Proceed to checkout button on the Shopping-cart summary",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 37,
+                "value": "# Authentication page"
+              }
+            ],
+            "line": 38,
+            "name": "user should be able to see \"Authentication\" on the authentication page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "User enter \"invalid email\" on the crete an account filed on the authentication page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "user click on Create an account button on the authentication page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "user should be able to see \"Invalid email address.\" on the authentication page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "User enter \"valid email\" on the crete an account filed on the authentication page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "user click on Create an account button on the authentication page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 44,
+                "value": "# Create an Account"
+              }
+            ],
+            "line": 45,
+            "name": "user should be able to see \"create and account\" on the create an account page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "User should be ale to see \"your personal information\" on the create an account page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "user select Mr for Title on the personal information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "user enter \"First Name\" on the personal information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "user enter \"Last Name\" on the personal information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "user enter \"Email\" on the personal information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 51,
+            "name": "user enter \"Password\" on the personal information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 52,
+            "name": "user select \"DOB day\" on the personal information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53,
+            "name": "user select \"DOB Month\" on the personal information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 54,
+            "name": "user select \"DOB Year\" on the personal information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 55,
+            "name": "user click sign up for newsletter on the personal information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 56,
+            "name": "user click Receive special offers on the personal information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 57,
+                "value": "#Your Address"
+              }
+            ],
+            "line": 58,
+            "name": "user enter \"First Name\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 59,
+            "name": "user enter \"Last Name\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 60,
+            "name": "user enter \"Company\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 61,
+            "name": "user enter \"Address\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 62,
+            "name": "user enter \"Address (Line 2)\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 63,
+            "name": "user enter \"City\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 64,
+            "name": "user select \"State\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "user enter \"Zip/Postal Code\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66,
+            "name": "user select \"Country\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 67,
+            "name": "user enter \"Additional information\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 68,
+            "name": "user enter \"Home phone\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 69,
+            "name": "user enter \"Mobile phone\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 70,
+            "name": "user enter \"Assign an address alias for future reference\" on the your address filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 71,
+            "name": "User click on the Register Button on the",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 72,
+            "name": "User should be able to see your",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Online Order feature",
+    "description": "",
+    "id": "online-order-feature",
+    "keyword": "Feature",
+    "uri": "OnlineOrder.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4052072316,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the landing page on the automation practice page",
+            "match": {
+              "location": "MyStepdefs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 529111638,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Test the contact us page on the automation practice web application",
+        "description": "",
+        "id": "contact-us-feature;test-the-contact-us-page-on-the-automation-practice-web-application",
+        "after": [
+          {
+            "result": {
+              "duration": 74931668,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1080634840,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on the contact us button on the automation practice landing page",
+            "match": {
+              "location": "ContactUs.userClickOnTheContactUsButtonOnTheAutomationPracticeLandingPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34556900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"Customer service - Contact us\" should be displayed on the auto Customer service - Contact us page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer service - Contact us",
+                  "offset": 1
+                }
+              ],
+              "location": "ContactUs.shouldBeDisplayedOnTheAutoCustomerServiceContactUsPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 854985165,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on send button on the Customer service - Contact us page",
+            "match": {
+              "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45184779,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Message validation error should display \"Invalid email address.\" on the Customer service - Contact us page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid email address.",
+                  "offset": 41
+                }
+              ],
+              "location": "ContactUs.messageValidationErrorShouldDisplayOnTheCustomerServiceContactUsPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104973445,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter the user email address on as Email:\"ndueso.utukTest\" on the Customer service - Contact us page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ndueso.utukTest",
+                  "offset": 47
+                }
+              ],
+              "location": "ContactUs.userEnterTheUserEmailAddressOnAsEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1146297682,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on send button on the Customer service - Contact us page",
+            "match": {
+              "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39930568,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Message validation error should display \"The message cannot be blank.\" on the Customer service - Contact us page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The message cannot be blank.",
+                  "offset": 41
+                }
+              ],
+              "location": "ContactUs.messageValidationErrorShouldDisplayOnTheCustomerServiceContactUsPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60742438,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter Message on message field on Customer service - Contact us page",
+            "match": {
+              "location": "ContactUs.userEnterMessageOnMessageFieldOnCustomerServiceContactUsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 683163048,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on send button on the Customer service - Contact us page",
+            "match": {
+              "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43117081,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Message validation error should display \"Please select a subject from the list provided.\" on the Customer service - Contact us page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please select a subject from the list provided.",
+                  "offset": 41
+                }
+              ],
+              "location": "ContactUs.messageValidationErrorShouldDisplayOnTheCustomerServiceContactUsPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95362310,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User select subject \"Customer service\" from the subject drop down on Customer service - Contact us page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer service",
+                  "offset": 21
+                }
+              ],
+              "location": "ContactUs.userSelectSubjectCustomerServiceFromTheSubjectDropDownOnCustomerServiceContactUsPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1222001858,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on send button on the Customer service - Contact us page",
+            "match": {
+              "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26930320,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "form should be sent successfully with success message \"Your message has been successfully sent to our team.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your message has been successfully sent to our team.",
+                  "offset": 55
+                }
+              ],
+              "location": "ContactUs.formShouldBeSentSuccessfullyWithSuccessMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1629748898,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click on the Home buttom on Customer service - Contact us page",
+            "match": {
+              "location": "ContactUs.userClickOnTheHomeButtomOnCustomerServiceContactUsPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Contact Us Feature",
+    "description": "",
+    "id": "contact-us-feature",
+    "keyword": "Feature",
+    "uri": "contactUs.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4348060300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the landing page on the automation practice page",
+            "match": {
+              "location": "MyStepdefs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 463940723,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Application main Page",
+        "description": "",
+        "id": "tui-web-application-homepage;application-main-page",
+        "after": [
+          {
+            "result": {
+              "duration": 71749177,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39409,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to see call us now on the landing page",
+            "match": {
+              "location": "MyStepdefs.userShouldBeAbleToSeeCallUsNowOnTheLandingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107674,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User verify text EXCEPTEUR OCCAECAT  \"EXCEPTEUR OCCAECAT\" exist on the landing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EXCEPTEUR OCCAECAT",
+                  "offset": 38
+                }
+              ],
+              "location": "MyStepdefs.userVerifyTextEXCEPTEUROCCAECATExistOnTheLandingPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40178,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to click on popular button on the main page",
+            "match": {
+              "location": "MyStepdefs.userShouldBeAbleToClickOnPopularButtonOnTheMainPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68004,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to click on Best seller button on the main page",
+            "match": {
+              "location": "MyStepdefs.userShouldBeAbleToClickOnBestSellerButtonOnTheMainPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122922,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter the user email address on as Email:\"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 47
+                }
+              ],
+              "location": "MyStepdefs.userEnterTheUserEmailAddressOnAsEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5662943,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the following details for login",
+            "match": {
+              "location": "MyStepdefs.iEnterTheFollowingDetailsForLogin(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpasswprd"
+                ],
+                "line": 16
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "tui web application homepage",
+    "description": "",
+    "id": "tui-web-application-homepage",
+    "keyword": "Feature",
+    "uri": "tuiAutomation.feature"
+  }
+]
