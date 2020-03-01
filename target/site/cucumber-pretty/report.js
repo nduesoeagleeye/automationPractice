@@ -1,620 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("OnlineOrder.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Online Order feature",
-  "description": "",
-  "id": "online-order-feature",
-  "keyword": "Feature"
-});
-formatter.before({
-  "duration": 916555774,
-  "status": "passed"
-});
-formatter.background({
-  "line": 3,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 4,
-  "name": "user navigates to the landing page on the automation practice page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "MyStepdefs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
-});
-formatter.result({
-  "duration": 4448533034,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 6,
-  "name": "carry out an online order with new customer registration",
-  "description": "",
-  "id": "online-order-feature;carry-out-an-online-order-with-new-customer-registration",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 8,
-  "name": "User hover on the first image on the landing page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "Item price should be \"$16.51\" on the landing page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "Item name should \"Faded Short Sleeve T-shirts\" on th landing page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "User click on  Add to Cart on the landing page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "User should be able to see \"Product successfully added to your shopping cart\" on the shopping window popup",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 13,
-  "name": "Item name should be \"Faded Short Sleeve T-shirts\" on the shopping window popup",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 14,
-  "name": "Item Colour should be \"Orange\" on the shopping window popup",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": "Item Quantity should be \"1\" on the shopping window popup",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 16,
-  "name": "Item Colour should be \"$16.51\" on the shopping window popup",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 17,
-  "name": "User should be able to see \" There is 1 item in your cart.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 18,
-  "name": "Item Total shipping should be \"$16.51\" on the shopping window popup",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 19,
-  "name": "Item Total should be \"$18.51\" on the shopping window popup",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 20,
-  "name": "User click on th Proceed to checkout button on the shopping window popup",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "User should be able to see \"Shopping-cart summary\" on the Shopping-cart summary page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 22,
-  "name": "Product column should display product image on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 23,
-  "name": "Description column should display product description on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 24,
-  "name": "Available column should display product \"In Stock\" on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 25,
-  "name": "Unit Price column should display product \"$16.51\" on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 26,
-  "name": "Available column should display product \"1\" on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 27,
-  "name": "Total column should display product \"$16.51\" on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 28,
-  "name": "user click on add button on the product quantity column",
-  "keyword": "And "
-});
-formatter.step({
-  "comments": [
-    {
-      "line": 29,
-      "value": "# Summary page"
-    }
-  ],
-  "line": 30,
-  "name": "Total column should display product \"$33.02\" on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 31,
-  "name": "Total Products should display product \"$33.02\" on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 32,
-  "name": "Total shipping should display product \"$33.02\" on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 33,
-  "name": "Total should display product \"$33.02\" on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 34,
-  "name": "Tax should display product \"$33.02\" on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 35,
-  "name": "Total should display product \"$33.02\" on the Shopping-cart summary",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 36,
-  "name": "User click on Proceed to checkout button on the Shopping-cart summary",
-  "keyword": "And "
-});
-formatter.step({
-  "comments": [
-    {
-      "line": 37,
-      "value": "# Authentication page"
-    }
-  ],
-  "line": 38,
-  "name": "user should be able to see \"Authentication\" on the authentication page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 39,
-  "name": "User enter \"invalid email\" on the crete an account filed on the authentication page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 40,
-  "name": "user click on Create an account button on the authentication page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 41,
-  "name": "user should be able to see \"Invalid email address.\" on the authentication page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 42,
-  "name": "User enter \"valid email\" on the crete an account filed on the authentication page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 43,
-  "name": "user click on Create an account button on the authentication page",
-  "keyword": "And "
-});
-formatter.step({
-  "comments": [
-    {
-      "line": 44,
-      "value": "# Create an Account"
-    }
-  ],
-  "line": 45,
-  "name": "user should be able to see \"create and account\" on the create an account page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 46,
-  "name": "User should be ale to see \"your personal information\" on the create an account page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 47,
-  "name": "user select Mr for Title on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 48,
-  "name": "user enter \"First Name\" on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 49,
-  "name": "user enter \"Last Name\" on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 50,
-  "name": "user enter \"Email\" on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 51,
-  "name": "user enter \"Password\" on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 52,
-  "name": "user select \"DOB day\" on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 53,
-  "name": "user select \"DOB Month\" on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 54,
-  "name": "user select \"DOB Year\" on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 55,
-  "name": "user click sign up for newsletter on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 56,
-  "name": "user click Receive special offers on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "comments": [
-    {
-      "line": 57,
-      "value": "#Your Address"
-    }
-  ],
-  "line": 58,
-  "name": "user enter \"First Name\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 59,
-  "name": "user enter \"Last Name\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 60,
-  "name": "user enter \"Company\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 61,
-  "name": "user enter \"Address\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 62,
-  "name": "user enter \"Address (Line 2)\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 63,
-  "name": "user enter \"City\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 64,
-  "name": "user select \"State\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 65,
-  "name": "user enter \"Zip/Postal Code\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 66,
-  "name": "user select \"Country\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 67,
-  "name": "user enter \"Additional information\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 68,
-  "name": "user enter \"Home phone\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 69,
-  "name": "user enter \"Mobile phone\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 70,
-  "name": "user enter \"Assign an address alias for future reference\" on the your address filed",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 71,
-  "name": "User click on the Register Button on the",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 72,
-  "name": "User should be able to see your",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.after({
-  "duration": 74000197,
-  "status": "passed"
-});
-formatter.uri("contactUs.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("contactUs.feature");
 formatter.feature({
   "line": 1,
   "name": "Contact Us Feature",
@@ -623,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 529111638,
+  "duration": 1292025882,
   "status": "passed"
 });
 formatter.background({
@@ -639,10 +23,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "MyStepdefs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
+  "location": "ContactUs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
 });
 formatter.result({
-  "duration": 4052072316,
+  "duration": 5163806297,
   "status": "passed"
 });
 formatter.scenario({
@@ -727,7 +111,7 @@ formatter.match({
   "location": "ContactUs.userClickOnTheContactUsButtonOnTheAutomationPracticeLandingPage()"
 });
 formatter.result({
-  "duration": 1080634840,
+  "duration": 1180293008,
   "status": "passed"
 });
 formatter.match({
@@ -740,14 +124,14 @@ formatter.match({
   "location": "ContactUs.shouldBeDisplayedOnTheAutoCustomerServiceContactUsPage(String)"
 });
 formatter.result({
-  "duration": 34556900,
+  "duration": 37489396,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 854985165,
+  "duration": 1097587894,
   "status": "passed"
 });
 formatter.match({
@@ -760,7 +144,7 @@ formatter.match({
   "location": "ContactUs.messageValidationErrorShouldDisplayOnTheCustomerServiceContactUsPage(String)"
 });
 formatter.result({
-  "duration": 45184779,
+  "duration": 33947526,
   "status": "passed"
 });
 formatter.match({
@@ -773,14 +157,14 @@ formatter.match({
   "location": "ContactUs.userEnterTheUserEmailAddressOnAsEmail(String)"
 });
 formatter.result({
-  "duration": 104973445,
+  "duration": 137807510,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 1146297682,
+  "duration": 796763926,
   "status": "passed"
 });
 formatter.match({
@@ -793,21 +177,21 @@ formatter.match({
   "location": "ContactUs.messageValidationErrorShouldDisplayOnTheCustomerServiceContactUsPage(String)"
 });
 formatter.result({
-  "duration": 39930568,
+  "duration": 32138357,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userEnterMessageOnMessageFieldOnCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 60742438,
+  "duration": 83542129,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 683163048,
+  "duration": 829210414,
   "status": "passed"
 });
 formatter.match({
@@ -820,7 +204,7 @@ formatter.match({
   "location": "ContactUs.messageValidationErrorShouldDisplayOnTheCustomerServiceContactUsPage(String)"
 });
 formatter.result({
-  "duration": 43117081,
+  "duration": 34754422,
   "status": "passed"
 });
 formatter.match({
@@ -833,14 +217,14 @@ formatter.match({
   "location": "ContactUs.userSelectSubjectCustomerServiceFromTheSubjectDropDownOnCustomerServiceContactUsPage(String)"
 });
 formatter.result({
-  "duration": 95362310,
+  "duration": 133190871,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 1222001858,
+  "duration": 1183660817,
   "status": "passed"
 });
 formatter.match({
@@ -853,30 +237,30 @@ formatter.match({
   "location": "ContactUs.formShouldBeSentSuccessfullyWithSuccessMessage(String)"
 });
 formatter.result({
-  "duration": 26930320,
+  "duration": 29665324,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userClickOnTheHomeButtomOnCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 1629748898,
+  "duration": 1865005063,
   "status": "passed"
 });
 formatter.after({
-  "duration": 74931668,
+  "duration": 76756571,
   "status": "passed"
 });
-formatter.uri("tuiAutomation.feature");
+formatter.uri("signIn.feature");
 formatter.feature({
   "line": 1,
-  "name": "tui web application homepage",
+  "name": "Sign In feature",
   "description": "",
-  "id": "tui-web-application-homepage",
+  "id": "sign-in-feature",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 463940723,
+  "duration": 549045791,
   "status": "passed"
 });
 formatter.background({
@@ -892,122 +276,590 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "MyStepdefs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
+  "location": "ContactUs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
 });
 formatter.result({
-  "duration": 4348060300,
+  "duration": 6305162688,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 8,
-  "name": "Application main Page",
+  "line": 6,
+  "name": "Registration with existing email should throw an error on Registration",
   "description": "",
-  "id": "tui-web-application-homepage;application-main-page",
+  "id": "sign-in-feature;registration-with-existing-email-should-throw-an-error-on-registration",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 9,
-  "name": "User should be able to see call us now on the landing page",
-  "keyword": "Then "
+  "line": 7,
+  "name": "User click on sign in button on the landing page",
+  "keyword": "When "
 });
 formatter.step({
+  "comments": [
+    {
+      "line": 9,
+      "value": "# Authentication page"
+    }
+  ],
   "line": 10,
-  "name": "User verify text EXCEPTEUR OCCAECAT  \"EXCEPTEUR OCCAECAT\" exist on the landing page",
-  "keyword": "Then "
+  "name": "User click on sign in button on the landing page",
+  "keyword": "When "
 });
 formatter.step({
   "line": 11,
-  "name": "User should be able to click on popular button on the main page",
-  "keyword": "And "
+  "name": "user should be able to see \"Authentication\" on the authentication page",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 12,
-  "name": "User should be able to click on Best seller button on the main page",
+  "name": "User enter \"ndueso.utuk\" on the crete an account filed on the authentication page",
   "keyword": "And "
 });
 formatter.step({
   "line": 13,
-  "name": "User enter the user email address on as Email:\"admin\"",
+  "name": "user click on Create an account button on the authentication page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
-  "name": "I enter the following details for login",
-  "rows": [
+  "comments": [
     {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 15
-    },
-    {
-      "cells": [
-        "admin",
-        "adminpasswprd"
-      ],
-      "line": 16
+      "line": 14,
+      "value": "# Create an Account"
     }
   ],
+  "line": 15,
+  "name": "user select Mr for Title on the personal information page",
   "keyword": "And "
 });
-formatter.match({
-  "location": "MyStepdefs.userShouldBeAbleToSeeCallUsNowOnTheLandingPage()"
+formatter.step({
+  "line": 16,
+  "name": "user enter First Name \"First Name\" on the personal information page",
+  "keyword": "And "
 });
-formatter.result({
-  "duration": 39409,
-  "status": "passed"
+formatter.step({
+  "line": 17,
+  "name": "user enter Last Name \"Last Name\" on the personal information page",
+  "keyword": "And "
 });
-formatter.match({
-  "arguments": [
+formatter.step({
+  "line": 18,
+  "name": "user enter Email \"Email\" on the personal information page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "user enter Password \"Password\" on the personal information page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "User should be able to see page heading \"create an account\" on the create an account page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 21,
+  "name": "User should be ale to see sub Heading \"your personal information\" on the create an account page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 22,
+  "name": "user select DOB day \"1\" on the personal information page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "user select DOB Month \"1\" on the personal information page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "user select DOB Year \"2020\" on the personal information page",
+  "keyword": "And "
+});
+formatter.step({
+  "comments": [
     {
-      "val": "EXCEPTEUR OCCAECAT",
-      "offset": 38
+      "line": 25,
+      "value": "#Your Address"
     }
   ],
-  "location": "MyStepdefs.userVerifyTextEXCEPTEUROCCAECATExistOnTheLandingPage(String)"
+  "line": 26,
+  "name": "user enter First Name \"First Name\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "user enter Last Name \"Last Name\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "user enter Company \"Company\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "user enter Address \"Address\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "user enter Address (Line 2) \"Address (Line 2)\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "user enter City \"City\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "user select State \"1\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "user enter Zip/Postal Code \"00000\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "user select Country \"21\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "user enter Additional information \"Additional information\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "user enter Home phone \"Home phone\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "user enter Mobile phone \"Mobile phone\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 38,
+  "name": "user enter Assign an address \"Assign an address alias for future reference\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "User click on the Register Button on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 40,
+  "name": "User should be able to see alias error \"alias is too long. Maximum length: 32\" message displayed on the create an account page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 41,
+  "name": "User should be able to see phone error \"phone is invalid.\"message displayed on the create an account page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 42,
+  "name": "User should be able to see phone mobile error \"phone_mobile is invalid.\" message displayed on the create an account page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Singin.userHoverOnTheFirstImageOnTheLandingPage()"
 });
 formatter.result({
-  "duration": 107674,
+  "duration": 1360104607,
   "status": "passed"
 });
 formatter.match({
-  "location": "MyStepdefs.userShouldBeAbleToClickOnPopularButtonOnTheMainPage()"
+  "location": "Singin.userHoverOnTheFirstImageOnTheLandingPage()"
 });
 formatter.result({
-  "duration": 40178,
-  "status": "passed"
-});
-formatter.match({
-  "location": "MyStepdefs.userShouldBeAbleToClickOnBestSellerButtonOnTheMainPage()"
-});
-formatter.result({
-  "duration": 68004,
+  "duration": 1072020122,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "admin",
+      "val": "Authentication",
+      "offset": 28
+    }
+  ],
+  "location": "Singin.userShouldBeAbleToSeeOnTheAuthenticationPage(String)"
+});
+formatter.result({
+  "duration": 31597398,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ndueso.utuk",
+      "offset": 12
+    }
+  ],
+  "location": "Singin.userEnterOnTheCreteAnAccountFiledOnTheAuthenticationPage(String)"
+});
+formatter.result({
+  "duration": 132829015,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userClickOnCreateAnAccountButtonOnTheAuthenticationPage()"
+});
+formatter.result({
+  "duration": 79038723,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userSelectMrForTitleOnThePersonalInformationPage()"
+});
+formatter.result({
+  "duration": 1362164691,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "First Name",
+      "offset": 23
+    }
+  ],
+  "location": "Singin.userEnterOnThePersonalInformationPage(String)"
+});
+formatter.result({
+  "duration": 212231413,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Last Name",
+      "offset": 22
+    }
+  ],
+  "location": "Singin.userEnterLastNameOnThePersonalInformationPage(String)"
+});
+formatter.result({
+  "duration": 139787793,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Email",
+      "offset": 18
+    }
+  ],
+  "location": "Singin.userEnterEmailOnThePersonalInformationPage(String)"
+});
+formatter.result({
+  "duration": 88539831,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Password",
+      "offset": 21
+    }
+  ],
+  "location": "Singin.userEnterPasswordOnThePersonalInformationPage(String)"
+});
+formatter.result({
+  "duration": 170474225,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "create an account",
+      "offset": 41
+    }
+  ],
+  "location": "Singin.userShouldBeAleToSeeOnTheCreateAnAccountPage(String)"
+});
+formatter.result({
+  "duration": 36145907,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "your personal information",
+      "offset": 39
+    }
+  ],
+  "location": "Singin.userShouldBeAbleToSeeOnTheCreateAnAccountPage(String)"
+});
+formatter.result({
+  "duration": 37010627,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 21
+    }
+  ],
+  "location": "Singin.userSelectDOBDayOnThePersonalInformationPage(String)"
+});
+formatter.result({
+  "duration": 114454102,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 23
+    }
+  ],
+  "location": "Singin.userSelectDOBMonthOnThePersonalInformationPage(String)"
+});
+formatter.result({
+  "duration": 115167608,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2020",
+      "offset": 22
+    }
+  ],
+  "location": "Singin.userSelectDOBYearOnThePersonalInformationPage(String)"
+});
+formatter.result({
+  "duration": 117217460,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "First Name",
+      "offset": 23
+    }
+  ],
+  "location": "Singin.userEnterFirstNameOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 94953597,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Last Name",
+      "offset": 22
+    }
+  ],
+  "location": "Singin.userEnterLastNameOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 86029878,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Company",
+      "offset": 20
+    }
+  ],
+  "location": "Singin.userEnterCompanyOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 71733541,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Address",
+      "offset": 20
+    }
+  ],
+  "location": "Singin.userEnterAddressOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 74011216,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 25
+    },
+    {
+      "val": "Address (Line 2)",
+      "offset": 29
+    }
+  ],
+  "location": "Singin.userEnterAddressLineOnTheYourAddressFiled(String,String)"
+});
+formatter.result({
+  "duration": 46649870,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "City",
+      "offset": 17
+    }
+  ],
+  "location": "Singin.userEnterCityOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 59461232,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 19
+    }
+  ],
+  "location": "Singin.userSelectStateOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 100106996,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "00000",
+      "offset": 28
+    }
+  ],
+  "location": "Singin.userEnterZipPostalCodeOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 72390429,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "21",
+      "offset": 21
+    }
+  ],
+  "location": "Singin.userSelectCountryOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 74927831,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Additional information",
+      "offset": 35
+    }
+  ],
+  "location": "Singin.userEnterAdditionalInformationOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 113369787,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Home phone",
+      "offset": 23
+    }
+  ],
+  "location": "Singin.userEnterHomePhoneOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 100634532,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Mobile phone",
+      "offset": 25
+    }
+  ],
+  "location": "Singin.userEnterMobilePhoneOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 94931065,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Assign an address alias for future reference",
+      "offset": 30
+    }
+  ],
+  "location": "Singin.userEnterAssignAnAddressOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 216951510,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userClickOnTheRegisterButtonOnTheYourAddressFiled()"
+});
+formatter.result({
+  "duration": 1093949417,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "alias is too long. Maximum length: 32",
+      "offset": 40
+    }
+  ],
+  "location": "Singin.userShouldBeAbleToSeeAliasErrorMessageDisplayedOnTheCreateAnAccountPage(String)"
+});
+formatter.result({
+  "duration": 28280332,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "phone is invalid.",
+      "offset": 40
+    }
+  ],
+  "location": "Singin.userShouldNbeAbleToSeePhoneErrorMessageDisplayedOnTheCreateAnAccountPage(String)"
+});
+formatter.result({
+  "duration": 26816662,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "phone_mobile is invalid.",
       "offset": 47
     }
   ],
-  "location": "MyStepdefs.userEnterTheUserEmailAddressOnAsEmail(String)"
+  "location": "Singin.userShouldNbeAbleToSeePhoneMobileErrorMessageDisplayedOnTheCreateAnAccountPage(String)"
 });
 formatter.result({
-  "duration": 122922,
-  "status": "passed"
-});
-formatter.match({
-  "location": "MyStepdefs.iEnterTheFollowingDetailsForLogin(DataTable)"
-});
-formatter.result({
-  "duration": 5662943,
+  "duration": 28149528,
   "status": "passed"
 });
 formatter.after({
-  "duration": 71749177,
+  "duration": 72924156,
   "status": "passed"
 });
 });

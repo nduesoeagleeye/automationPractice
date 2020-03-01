@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Tui2_Project" target="1.5" />
+      <module name="Tui2_Project" target="13" />
     </bytecodeTargetLevel>
   </component>
 </project>
