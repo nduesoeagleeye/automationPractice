@@ -8,15 +8,21 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.fluttercode.datafactory.impl.DataFactory;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import pages.SignInPage;
 
 public class Singin extends BaseUtil {
 
-    private BaseUtil base;
+    private final BaseUtil base;
 
     public Singin(BaseUtil base) {
         this.base = base;
     }
+    public static String email = null;
+    public static String password = null;
+
 
 
     @When("^User click on sign in button on the landing page$")
@@ -33,9 +39,11 @@ public class Singin extends BaseUtil {
 
     @And("^User enter \"([^\"]*)\" on the crete an account filed on the authentication page$")
     public void userEnterOnTheCreteAnAccountFiledOnTheAuthenticationPage(@Transform(EmailTransform.class) String value) {
-        DataFactory df = new DataFactory();
-        String gen  = df.getRandomText(1,4);
-        String email =  gen + value  ;
+       // DataFactory df = new DataFactory();
+
+     //   String gen  = df.getRandomText(5);
+        double random = Math.random() * 9 + 1;
+        email =  random + value  ;
         SignInPage page = new SignInPage(base.Driver);
         page.sendKeys(email,page.txt_ShoppingCartAuthenticationCreate_Email);
 
@@ -85,8 +93,13 @@ public class Singin extends BaseUtil {
 
     @And("^user enter Password \"([^\"]*)\" on the personal information page$")
     public void userEnterPasswordOnThePersonalInformationPage(String value)  {
+     //   DataFactory df = new DataFactory();
+     //   String gen  = df.getRandomText(5);
+        double random = Math.random() * 9 + 1;
+
+        password =  random + value  ;
         SignInPage page = new SignInPage(base.Driver);
-        page.sendKeys(value,page.txt_ShoppingCartCreateAccount_password);
+        page.sendKeys(password,page.txt_ShoppingCartCreateAccount_password);
     }
 
     @And("^user select DOB day \"([^\"]*)\" on the personal information page$")
@@ -210,5 +223,62 @@ public class Singin extends BaseUtil {
     public void userShouldNbeAbleToSeePhoneMobileErrorMessageDisplayedOnTheCreateAnAccountPage(String expectedValue)  {
         SignInPage page = new SignInPage(base.Driver);
         page.assertEquals(expectedValue,page.txt_accountCreateErrorMessage_mobilePhone);
+    }
+
+    @Then("^User should be able to see test \"([^\"]*)\" on the authentication page$")
+    public void userShouldBeAbleToSeeTestOnTheAuthenticationPage(String expectedValue)  {
+        SignInPage page = new SignInPage(base.Driver);
+        page.assertEquals(expectedValue,page.txt_accountSignInAlreadyRegistered);
+    }
+
+    @And("^user enter email address on the authentication sign in page$")
+    public void userEnterEmailAddressOnTheAuthenticationSignInPage() {
+        SignInPage page = new SignInPage(base.Driver);
+        page.sendKeys(email,page.txt_accountSignInEmailAddress);
+    }
+
+    @And("^user enter password on the authentication sign in page$")
+    public void userEnterPasswordOnTheAuthenticationSignInPage() {
+        SignInPage page = new SignInPage(base.Driver);
+        page.sendKeys(password,page.txt_accountSignInPassword);
+    }
+
+    @And("^user click on sign in button on the authentication sign in page$")
+    public void userClickOnSignInButtonOnTheAuthenticationSignInPage() {
+        SignInPage page = new SignInPage(base.Driver);
+        page.click(page.btn_accountSignInButton);
+    }
+
+    @And("^user click on dresses button on the my account page$")
+    public void userClickOnDressesButtonOnTheMyAccountPage() {
+        SignInPage page = new SignInPage(base.Driver);
+        page.click(page.btn_accountSignInDresses);
+    }
+
+    @And("^user click on Evening dress on the my category page$")
+    public void userClickOnEveningDressOnTheMyCategoryPage() {
+        SignInPage page = new SignInPage(base.Driver);
+        page.click(page.btn_accountCategoryEveningDress);
+    }
+
+    @And("^User Click on add to cart on the dress$")
+    public void userClickOnAddToCartOnTheDress() {
+        SignInPage page = new SignInPage(base.Driver);
+        Actions builder = new Actions(base.Driver);
+        builder.moveToElement(page.btn_accountCateloguePrintedDress).perform();
+        page.click(page.btn_accountCateloguePrintedDressAddToCart);
+    }
+
+    @Then("^User should be able to see \"([^\"]*)\" on displayed$")
+    public void userShouldBeAbleToSeeOnDisplayed(String expectedValue)  {
+        SignInPage page = new SignInPage(base.Driver);
+
+        page.assertEquals(expectedValue,page.btn_accountProductMessage_successful);
+    }
+
+    @When("^user click on the sign out button on the account page$")
+    public void userClickOnTheSignOutButtonOnTheAccountPage() {
+        SignInPage page = new SignInPage(base.Driver);
+        page.click(page.btn_accountLogout);
     }
 }

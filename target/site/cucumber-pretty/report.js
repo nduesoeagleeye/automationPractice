@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1292025882,
+  "duration": 2679110637,
   "status": "passed"
 });
 formatter.background({
@@ -26,7 +26,7 @@ formatter.match({
   "location": "ContactUs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
 });
 formatter.result({
-  "duration": 5163806297,
+  "duration": 9209775638,
   "status": "passed"
 });
 formatter.scenario({
@@ -111,7 +111,7 @@ formatter.match({
   "location": "ContactUs.userClickOnTheContactUsButtonOnTheAutomationPracticeLandingPage()"
 });
 formatter.result({
-  "duration": 1180293008,
+  "duration": 5438517302,
   "status": "passed"
 });
 formatter.match({
@@ -124,14 +124,14 @@ formatter.match({
   "location": "ContactUs.shouldBeDisplayedOnTheAutoCustomerServiceContactUsPage(String)"
 });
 formatter.result({
-  "duration": 37489396,
+  "duration": 51940038,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 1097587894,
+  "duration": 6728745263,
   "status": "passed"
 });
 formatter.match({
@@ -144,7 +144,7 @@ formatter.match({
   "location": "ContactUs.messageValidationErrorShouldDisplayOnTheCustomerServiceContactUsPage(String)"
 });
 formatter.result({
-  "duration": 33947526,
+  "duration": 24010643,
   "status": "passed"
 });
 formatter.match({
@@ -157,14 +157,14 @@ formatter.match({
   "location": "ContactUs.userEnterTheUserEmailAddressOnAsEmail(String)"
 });
 formatter.result({
-  "duration": 137807510,
+  "duration": 96996043,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 796763926,
+  "duration": 6033552445,
   "status": "passed"
 });
 formatter.match({
@@ -177,21 +177,21 @@ formatter.match({
   "location": "ContactUs.messageValidationErrorShouldDisplayOnTheCustomerServiceContactUsPage(String)"
 });
 formatter.result({
-  "duration": 32138357,
+  "duration": 30879504,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userEnterMessageOnMessageFieldOnCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 83542129,
+  "duration": 56938114,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 829210414,
+  "duration": 5259957149,
   "status": "passed"
 });
 formatter.match({
@@ -204,7 +204,7 @@ formatter.match({
   "location": "ContactUs.messageValidationErrorShouldDisplayOnTheCustomerServiceContactUsPage(String)"
 });
 formatter.result({
-  "duration": 34754422,
+  "duration": 23732337,
   "status": "passed"
 });
 formatter.match({
@@ -217,14 +217,14 @@ formatter.match({
   "location": "ContactUs.userSelectSubjectCustomerServiceFromTheSubjectDropDownOnCustomerServiceContactUsPage(String)"
 });
 formatter.result({
-  "duration": 133190871,
+  "duration": 89896308,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userClickOnSendButtonOnTheCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 1183660817,
+  "duration": 57759342,
   "status": "passed"
 });
 formatter.match({
@@ -237,18 +237,18 @@ formatter.match({
   "location": "ContactUs.formShouldBeSentSuccessfullyWithSuccessMessage(String)"
 });
 formatter.result({
-  "duration": 29665324,
+  "duration": 6661440985,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs.userClickOnTheHomeButtomOnCustomerServiceContactUsPage()"
 });
 formatter.result({
-  "duration": 1865005063,
+  "duration": 13819083823,
   "status": "passed"
 });
 formatter.after({
-  "duration": 76756571,
+  "duration": 70594139,
   "status": "passed"
 });
 formatter.uri("signIn.feature");
@@ -260,7 +260,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 549045791,
+  "duration": 2267098272,
   "status": "passed"
 });
 formatter.background({
@@ -279,14 +279,14 @@ formatter.match({
   "location": "ContactUs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
 });
 formatter.result({
-  "duration": 6305162688,
+  "duration": 10340939572,
   "status": "passed"
 });
 formatter.scenario({
   "line": 6,
-  "name": "Registration with existing email should throw an error on Registration",
+  "name": "User Create an account with valid credentials and check for error validations on the fields",
   "description": "",
-  "id": "sign-in-feature;registration-with-existing-email-should-throw-an-error-on-registration",
+  "id": "sign-in-feature;user-create-an-account-with-valid-credentials-and-check-for-error-validations-on-the-fields",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -298,188 +298,213 @@ formatter.step({
 formatter.step({
   "comments": [
     {
-      "line": 9,
+      "line": 8,
       "value": "# Authentication page"
     }
   ],
-  "line": 10,
+  "line": 9,
   "name": "User click on sign in button on the landing page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "user should be able to see \"Authentication\" on the authentication page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "User enter \"ndueso.utuk\" on the crete an account filed on the authentication page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 12,
   "name": "user click on Create an account button on the authentication page",
   "keyword": "And "
 });
 formatter.step({
   "comments": [
     {
-      "line": 14,
+      "line": 13,
       "value": "# Create an Account"
     }
   ],
-  "line": 15,
+  "line": 14,
   "name": "user select Mr for Title on the personal information page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 16,
+  "line": 15,
   "name": "user enter First Name \"First Name\" on the personal information page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "user enter Last Name \"Last Name\" on the personal information page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 18,
-  "name": "user enter Email \"Email\" on the personal information page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
+  "line": 17,
   "name": "user enter Password \"Password\" on the personal information page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 20,
+  "line": 18,
   "name": "User should be able to see page heading \"create an account\" on the create an account page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 21,
+  "line": 19,
   "name": "User should be ale to see sub Heading \"your personal information\" on the create an account page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 22,
+  "line": 20,
   "name": "user select DOB day \"1\" on the personal information page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 23,
+  "line": 21,
   "name": "user select DOB Month \"1\" on the personal information page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 22,
   "name": "user select DOB Year \"2020\" on the personal information page",
   "keyword": "And "
 });
 formatter.step({
   "comments": [
     {
-      "line": 25,
+      "line": 23,
       "value": "#Your Address"
     }
   ],
-  "line": 26,
+  "line": 24,
   "name": "user enter First Name \"First Name\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 27,
+  "line": 25,
   "name": "user enter Last Name \"Last Name\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 28,
+  "line": 26,
   "name": "user enter Company \"Company\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 29,
+  "line": 27,
   "name": "user enter Address \"Address\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 30,
+  "line": 28,
   "name": "user enter Address (Line 2) \"Address (Line 2)\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 31,
+  "line": 29,
   "name": "user enter City \"City\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 32,
+  "line": 30,
   "name": "user select State \"1\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 33,
+  "line": 31,
   "name": "user enter Zip/Postal Code \"00000\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 32,
   "name": "user select Country \"21\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 35,
+  "line": 33,
   "name": "user enter Additional information \"Additional information\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
+  "line": 34,
   "name": "user enter Home phone \"Home phone\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 37,
+  "line": 35,
   "name": "user enter Mobile phone \"Mobile phone\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 38,
+  "line": 36,
   "name": "user enter Assign an address \"Assign an address alias for future reference\" on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 39,
+  "line": 37,
   "name": "User click on the Register Button on the your address filed",
   "keyword": "And "
 });
 formatter.step({
-  "line": 40,
+  "line": 38,
   "name": "User should be able to see alias error \"alias is too long. Maximum length: 32\" message displayed on the create an account page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 41,
+  "line": 39,
   "name": "User should be able to see phone error \"phone is invalid.\"message displayed on the create an account page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 42,
+  "line": 40,
   "name": "User should be able to see phone mobile error \"phone_mobile is invalid.\" message displayed on the create an account page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 41,
+  "name": "user enter Password \"Password\" on the personal information page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 42,
+  "name": "user enter Assign an address \"address alias\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 43,
+  "name": "user enter Home phone \"07429286755\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 44,
+  "name": "user enter Mobile phone \"07429286755\" on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 45,
+  "name": "User click on the Register Button on the your address filed",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "user should be able to see \"My account\" on the authentication page",
   "keyword": "Then "
 });
 formatter.match({
   "location": "Singin.userHoverOnTheFirstImageOnTheLandingPage()"
 });
 formatter.result({
-  "duration": 1360104607,
+  "duration": 11611044941,
   "status": "passed"
 });
 formatter.match({
   "location": "Singin.userHoverOnTheFirstImageOnTheLandingPage()"
 });
 formatter.result({
-  "duration": 1072020122,
+  "duration": 11473740110,
   "status": "passed"
 });
 formatter.match({
@@ -492,7 +517,7 @@ formatter.match({
   "location": "Singin.userShouldBeAbleToSeeOnTheAuthenticationPage(String)"
 });
 formatter.result({
-  "duration": 31597398,
+  "duration": 24628333,
   "status": "passed"
 });
 formatter.match({
@@ -505,21 +530,21 @@ formatter.match({
   "location": "Singin.userEnterOnTheCreteAnAccountFiledOnTheAuthenticationPage(String)"
 });
 formatter.result({
-  "duration": 132829015,
+  "duration": 157222694,
   "status": "passed"
 });
 formatter.match({
   "location": "Singin.userClickOnCreateAnAccountButtonOnTheAuthenticationPage()"
 });
 formatter.result({
-  "duration": 79038723,
+  "duration": 55329188,
   "status": "passed"
 });
 formatter.match({
   "location": "Singin.userSelectMrForTitleOnThePersonalInformationPage()"
 });
 formatter.result({
-  "duration": 1362164691,
+  "duration": 5250428370,
   "status": "passed"
 });
 formatter.match({
@@ -532,7 +557,7 @@ formatter.match({
   "location": "Singin.userEnterOnThePersonalInformationPage(String)"
 });
 formatter.result({
-  "duration": 212231413,
+  "duration": 112425635,
   "status": "passed"
 });
 formatter.match({
@@ -545,20 +570,7 @@ formatter.match({
   "location": "Singin.userEnterLastNameOnThePersonalInformationPage(String)"
 });
 formatter.result({
-  "duration": 139787793,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Email",
-      "offset": 18
-    }
-  ],
-  "location": "Singin.userEnterEmailOnThePersonalInformationPage(String)"
-});
-formatter.result({
-  "duration": 88539831,
+  "duration": 101288403,
   "status": "passed"
 });
 formatter.match({
@@ -571,7 +583,7 @@ formatter.match({
   "location": "Singin.userEnterPasswordOnThePersonalInformationPage(String)"
 });
 formatter.result({
-  "duration": 170474225,
+  "duration": 153009621,
   "status": "passed"
 });
 formatter.match({
@@ -584,7 +596,7 @@ formatter.match({
   "location": "Singin.userShouldBeAleToSeeOnTheCreateAnAccountPage(String)"
 });
 formatter.result({
-  "duration": 36145907,
+  "duration": 28438626,
   "status": "passed"
 });
 formatter.match({
@@ -597,7 +609,7 @@ formatter.match({
   "location": "Singin.userShouldBeAbleToSeeOnTheCreateAnAccountPage(String)"
 });
 formatter.result({
-  "duration": 37010627,
+  "duration": 23389980,
   "status": "passed"
 });
 formatter.match({
@@ -610,7 +622,7 @@ formatter.match({
   "location": "Singin.userSelectDOBDayOnThePersonalInformationPage(String)"
 });
 formatter.result({
-  "duration": 114454102,
+  "duration": 85320181,
   "status": "passed"
 });
 formatter.match({
@@ -623,7 +635,7 @@ formatter.match({
   "location": "Singin.userSelectDOBMonthOnThePersonalInformationPage(String)"
 });
 formatter.result({
-  "duration": 115167608,
+  "duration": 126637947,
   "status": "passed"
 });
 formatter.match({
@@ -636,7 +648,7 @@ formatter.match({
   "location": "Singin.userSelectDOBYearOnThePersonalInformationPage(String)"
 });
 formatter.result({
-  "duration": 117217460,
+  "duration": 92244015,
   "status": "passed"
 });
 formatter.match({
@@ -649,7 +661,7 @@ formatter.match({
   "location": "Singin.userEnterFirstNameOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 94953597,
+  "duration": 107589843,
   "status": "passed"
 });
 formatter.match({
@@ -662,7 +674,7 @@ formatter.match({
   "location": "Singin.userEnterLastNameOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 86029878,
+  "duration": 94101837,
   "status": "passed"
 });
 formatter.match({
@@ -675,7 +687,7 @@ formatter.match({
   "location": "Singin.userEnterCompanyOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 71733541,
+  "duration": 87474237,
   "status": "passed"
 });
 formatter.match({
@@ -688,7 +700,7 @@ formatter.match({
   "location": "Singin.userEnterAddressOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 74011216,
+  "duration": 86358032,
   "status": "passed"
 });
 formatter.match({
@@ -705,7 +717,7 @@ formatter.match({
   "location": "Singin.userEnterAddressLineOnTheYourAddressFiled(String,String)"
 });
 formatter.result({
-  "duration": 46649870,
+  "duration": 60102062,
   "status": "passed"
 });
 formatter.match({
@@ -718,7 +730,7 @@ formatter.match({
   "location": "Singin.userEnterCityOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 59461232,
+  "duration": 72624361,
   "status": "passed"
 });
 formatter.match({
@@ -731,7 +743,7 @@ formatter.match({
   "location": "Singin.userSelectStateOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 100106996,
+  "duration": 76752692,
   "status": "passed"
 });
 formatter.match({
@@ -744,7 +756,7 @@ formatter.match({
   "location": "Singin.userEnterZipPostalCodeOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 72390429,
+  "duration": 80731572,
   "status": "passed"
 });
 formatter.match({
@@ -757,7 +769,7 @@ formatter.match({
   "location": "Singin.userSelectCountryOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 74927831,
+  "duration": 52805153,
   "status": "passed"
 });
 formatter.match({
@@ -770,7 +782,7 @@ formatter.match({
   "location": "Singin.userEnterAdditionalInformationOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 113369787,
+  "duration": 103592286,
   "status": "passed"
 });
 formatter.match({
@@ -783,7 +795,7 @@ formatter.match({
   "location": "Singin.userEnterHomePhoneOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 100634532,
+  "duration": 95540666,
   "status": "passed"
 });
 formatter.match({
@@ -796,7 +808,7 @@ formatter.match({
   "location": "Singin.userEnterMobilePhoneOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 94931065,
+  "duration": 101376558,
   "status": "passed"
 });
 formatter.match({
@@ -809,14 +821,14 @@ formatter.match({
   "location": "Singin.userEnterAssignAnAddressOnTheYourAddressFiled(String)"
 });
 formatter.result({
-  "duration": 216951510,
+  "duration": 219245947,
   "status": "passed"
 });
 formatter.match({
   "location": "Singin.userClickOnTheRegisterButtonOnTheYourAddressFiled()"
 });
 formatter.result({
-  "duration": 1093949417,
+  "duration": 45755887,
   "status": "passed"
 });
 formatter.match({
@@ -829,7 +841,7 @@ formatter.match({
   "location": "Singin.userShouldBeAbleToSeeAliasErrorMessageDisplayedOnTheCreateAnAccountPage(String)"
 });
 formatter.result({
-  "duration": 28280332,
+  "duration": 6205166544,
   "status": "passed"
 });
 formatter.match({
@@ -842,7 +854,7 @@ formatter.match({
   "location": "Singin.userShouldNbeAbleToSeePhoneErrorMessageDisplayedOnTheCreateAnAccountPage(String)"
 });
 formatter.result({
-  "duration": 26816662,
+  "duration": 20832309,
   "status": "passed"
 });
 formatter.match({
@@ -855,11 +867,375 @@ formatter.match({
   "location": "Singin.userShouldNbeAbleToSeePhoneMobileErrorMessageDisplayedOnTheCreateAnAccountPage(String)"
 });
 formatter.result({
-  "duration": 28149528,
+  "duration": 21313350,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Password",
+      "offset": 21
+    }
+  ],
+  "location": "Singin.userEnterPasswordOnThePersonalInformationPage(String)"
+});
+formatter.result({
+  "duration": 146803493,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "address alias",
+      "offset": 30
+    }
+  ],
+  "location": "Singin.userEnterAssignAnAddressOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 111376748,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07429286755",
+      "offset": 23
+    }
+  ],
+  "location": "Singin.userEnterHomePhoneOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 159063711,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07429286755",
+      "offset": 25
+    }
+  ],
+  "location": "Singin.userEnterMobilePhoneOnTheYourAddressFiled(String)"
+});
+formatter.result({
+  "duration": 126427152,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userClickOnTheRegisterButtonOnTheYourAddressFiled()"
+});
+formatter.result({
+  "duration": 8545914307,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "My account",
+      "offset": 28
+    }
+  ],
+  "location": "Singin.userShouldBeAbleToSeeOnTheAuthenticationPage(String)"
+});
+formatter.result({
+  "duration": 32938650,
   "status": "passed"
 });
 formatter.after({
-  "duration": 72924156,
+  "duration": 72125716,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2226368525,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "user navigates to the landing page on the automation practice page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "ContactUs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
+});
+formatter.result({
+  "duration": 10557971210,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 49,
+  "name": "User login to the account,find most expensive dress and add to the cart and user logout",
+  "description": "",
+  "id": "sign-in-feature;user-login-to-the-account,find-most-expensive-dress-and-add-to-the-cart-and-user-logout",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 50,
+  "name": "User click on sign in button on the landing page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 51,
+  "name": "User should be able to see test \"Already registered?\" on the authentication page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 52,
+  "name": "user enter email address on the authentication sign in page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 53,
+  "name": "user enter password on the authentication sign in page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 54,
+  "name": "user click on sign in button on the authentication sign in page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 55,
+  "name": "user should be able to see \"My account\" on the authentication page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 56,
+  "name": "user click on dresses button on the my account page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 57,
+  "name": "user click on Evening dress on the my category page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 58,
+  "name": "User Click on add to cart on the dress",
+  "keyword": "When "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 59,
+      "value": "#    Then User should be able to see \"Product successfully added to your shopping cart\" on displayed"
+    }
+  ],
+  "line": 60,
+  "name": "user click on the sign out button on the account page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Singin.userHoverOnTheFirstImageOnTheLandingPage()"
+});
+formatter.result({
+  "duration": 7919395228,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Already registered?",
+      "offset": 33
+    }
+  ],
+  "location": "Singin.userShouldBeAbleToSeeTestOnTheAuthenticationPage(String)"
+});
+formatter.result({
+  "duration": 30727870,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userEnterEmailAddressOnTheAuthenticationSignInPage()"
+});
+formatter.result({
+  "duration": 196325949,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userEnterPasswordOnTheAuthenticationSignInPage()"
+});
+formatter.result({
+  "duration": 111394105,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userClickOnSignInButtonOnTheAuthenticationSignInPage()"
+});
+formatter.result({
+  "duration": 9125503314,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "My account",
+      "offset": 28
+    }
+  ],
+  "location": "Singin.userShouldBeAbleToSeeOnTheAuthenticationPage(String)"
+});
+formatter.result({
+  "duration": 23994985,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userClickOnDressesButtonOnTheMyAccountPage()"
+});
+formatter.result({
+  "duration": 8000101127,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userClickOnEveningDressOnTheMyCategoryPage()"
+});
+formatter.result({
+  "duration": 7195381532,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userClickOnAddToCartOnTheDress()"
+});
+formatter.result({
+  "duration": 126736106,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userClickOnTheSignOutButtonOnTheAccountPage()"
+});
+formatter.result({
+  "duration": 11126823911,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 72266457,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2259592920,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "user navigates to the landing page on the automation practice page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "ContactUs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
+});
+formatter.result({
+  "duration": 9092232649,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 62,
+  "name": "User login to the account verify the item is still in the cart",
+  "description": "",
+  "id": "sign-in-feature;user-login-to-the-account-verify-the-item-is-still-in-the-cart",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 63,
+  "name": "User click on sign in button on the landing page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 64,
+  "name": "User should be able to see test \"Already registered?\" on the authentication page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 65,
+  "name": "user enter email address on the authentication sign in page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 66,
+  "name": "user enter password on the authentication sign in page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 67,
+  "name": "user click on sign in button on the authentication sign in page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 68,
+  "name": "user should be able to see \"My account\" on the authentication page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Singin.userHoverOnTheFirstImageOnTheLandingPage()"
+});
+formatter.result({
+  "duration": 10598590439,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Already registered?",
+      "offset": 33
+    }
+  ],
+  "location": "Singin.userShouldBeAbleToSeeTestOnTheAuthenticationPage(String)"
+});
+formatter.result({
+  "duration": 26238358,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userEnterEmailAddressOnTheAuthenticationSignInPage()"
+});
+formatter.result({
+  "duration": 147697863,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userEnterPasswordOnTheAuthenticationSignInPage()"
+});
+formatter.result({
+  "duration": 115301767,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Singin.userClickOnSignInButtonOnTheAuthenticationSignInPage()"
+});
+formatter.result({
+  "duration": 10589010203,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "My account",
+      "offset": 28
+    }
+  ],
+  "location": "Singin.userShouldBeAbleToSeeOnTheAuthenticationPage(String)"
+});
+formatter.result({
+  "duration": 23088096,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 70494052,
   "status": "passed"
 });
 });

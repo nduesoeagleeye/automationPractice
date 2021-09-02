@@ -7,7 +7,7 @@ public class EmailTransform extends Transformer <String>{
     @Override
     public String transform (String userName)
     {
-        return userName.concat("@tui.co.uk");
+        return userName.concat("@mercator.group");
     }
 
 

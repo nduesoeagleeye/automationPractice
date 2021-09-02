@@ -1,6 +1,7 @@
 package pages;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -112,6 +113,36 @@ public class SignInPage {
     @FindBy(how = How.CSS, using = "#center_column > div > ol > li:nth-child(3)")
     public WebElement txt_accountCreateErrorMessage_mobilePhone;
 
+    @FindBy(how = How.CSS, using = "#login_form>h3")
+    public WebElement txt_accountSignInAlreadyRegistered;
+
+    @FindBy(how = How.CSS, using = "#email")
+    public WebElement txt_accountSignInEmailAddress;
+
+    @FindBy(how = How.CSS, using = "#passwd")
+    public WebElement txt_accountSignInPassword;
+
+    @FindBy(how = How.CSS, using = "#SubmitLogin")
+    public WebElement btn_accountSignInButton;
+
+    @FindBy(how = How.CSS, using = ".sf-menu > li:nth-child(2) > a:nth-child(1)")
+    public WebElement btn_accountSignInDresses;
+
+    @FindBy(how = How.XPATH, using = "//div[@id=\"categories_block_left\"]//a[contains(text(),'Evening Dresses')]")
+    public WebElement btn_accountCategoryEveningDress;
+
+    @FindBy(how = How.XPATH, using = "//div[@class=\"product-image-container\"]//a[@title='Printed Dress']")
+    public WebElement btn_accountCateloguePrintedDress;
+
+    @FindBy(how = How.XPATH, using = "//div[@class=\"right-block\"]//span[contains(text(),'Add to cart')]")
+    public WebElement btn_accountCateloguePrintedDressAddToCart;
+
+    @FindBy(how = How.CSS, using = ".layer_cart_product > h2:nth-child(2)")
+    public WebElement btn_accountProductMessage_successful;
+
+    @FindBy(how = How.CSS, using = ".logout")
+    public WebElement btn_accountLogout;
+
     public void click(WebElement locator)
     {
         locator.click();
@@ -125,7 +156,9 @@ public class SignInPage {
 
     public void sendKeys(String value, WebElement locator)
     {
+        locator.clear();
         locator.sendKeys(value);
+
     }
 
     public void selectByValue(String value, WebElement locator)
@@ -133,15 +166,5 @@ public class SignInPage {
         Select subject = new Select(locator);
         subject.selectByValue(value);
     }
-
-
-
-
-
-
-
-
-
-
 
 }

@@ -18,7 +18,7 @@ public class ExtentReportUtil extends BaseUtil {
 
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);
         htmlReporter.config().setTheme(Theme.DARK);
-        htmlReporter.config().setDocumentTitle("Test Report for Tui Test");
+        htmlReporter.config().setDocumentTitle("Test Report for automationPractice Test");
         htmlReporter.config().setEncoding("utf-8");
         htmlReporter.config().setReportName("Test Report");
 
@@ -27,7 +27,7 @@ public class ExtentReportUtil extends BaseUtil {
     }
 
     public void ExtentReportScreenShort() throws IOException {
-        var scr = ((TakesScreenshot)Driver).getScreenshotAs(OutputType.FILE);
+        File scr = ((TakesScreenshot)Driver).getScreenshotAs(OutputType.FILE);
         Files.copy(scr.toPath(), new File(reportLocation + "Screenshot.png").toPath());
 
 

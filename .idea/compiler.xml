@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Tui2_Project" />
+        <module name="automationPractice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Tui2_Project" target="13" />
+      <module name="automationPractice" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>

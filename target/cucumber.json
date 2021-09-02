@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5163806297,
+              "duration": 9209775638,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 1292025882,
+              "duration": 2679110637,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 76756571,
+              "duration": 70594139,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1180293008,
+              "duration": 5438517302,
               "status": "passed"
             },
             "line": 7,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 37489396,
+              "duration": 51940038,
               "status": "passed"
             },
             "line": 8,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 1097587894,
+              "duration": 6728745263,
               "status": "passed"
             },
             "line": 9,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 33947526,
+              "duration": 24010643,
               "status": "passed"
             },
             "line": 10,
@@ -115,7 +115,7 @@
           },
           {
             "result": {
-              "duration": 137807510,
+              "duration": 96996043,
               "status": "passed"
             },
             "line": 11,
@@ -133,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 796763926,
+              "duration": 6033552445,
               "status": "passed"
             },
             "line": 12,
@@ -145,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 32138357,
+              "duration": 30879504,
               "status": "passed"
             },
             "line": 13,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 83542129,
+              "duration": 56938114,
               "status": "passed"
             },
             "line": 14,
@@ -175,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 829210414,
+              "duration": 5259957149,
               "status": "passed"
             },
             "line": 15,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 34754422,
+              "duration": 23732337,
               "status": "passed"
             },
             "line": 16,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 133190871,
+              "duration": 89896308,
               "status": "passed"
             },
             "line": 17,
@@ -223,7 +223,7 @@
           },
           {
             "result": {
-              "duration": 1183660817,
+              "duration": 57759342,
               "status": "passed"
             },
             "line": 18,
@@ -235,7 +235,7 @@
           },
           {
             "result": {
-              "duration": 29665324,
+              "duration": 6661440985,
               "status": "passed"
             },
             "line": 19,
@@ -253,7 +253,7 @@
           },
           {
             "result": {
-              "duration": 1865005063,
+              "duration": 13819083823,
               "status": "passed"
             },
             "line": 20,
@@ -284,7 +284,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6305162688,
+              "duration": 10340939572,
               "status": "passed"
             },
             "line": 4,
@@ -300,7 +300,7 @@
         "before": [
           {
             "result": {
-              "duration": 549045791,
+              "duration": 2267098272,
               "status": "passed"
             },
             "match": {
@@ -309,13 +309,13 @@
           }
         ],
         "line": 6,
-        "name": "Registration with existing email should throw an error on Registration",
+        "name": "User Create an account with valid credentials and check for error validations on the fields",
         "description": "",
-        "id": "sign-in-feature;registration-with-existing-email-should-throw-an-error-on-registration",
+        "id": "sign-in-feature;user-create-an-account-with-valid-credentials-and-check-for-error-validations-on-the-fields",
         "after": [
           {
             "result": {
-              "duration": 72924156,
+              "duration": 72125716,
               "status": "passed"
             },
             "match": {
@@ -328,7 +328,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1360104607,
+              "duration": 11611044941,
               "status": "passed"
             },
             "line": 7,
@@ -340,16 +340,16 @@
           },
           {
             "result": {
-              "duration": 1072020122,
+              "duration": 11473740110,
               "status": "passed"
             },
             "comments": [
               {
-                "line": 9,
+                "line": 8,
                 "value": "# Authentication page"
               }
             ],
-            "line": 10,
+            "line": 9,
             "name": "User click on sign in button on the landing page",
             "match": {
               "location": "Singin.userHoverOnTheFirstImageOnTheLandingPage()"
@@ -358,10 +358,10 @@
           },
           {
             "result": {
-              "duration": 31597398,
+              "duration": 24628333,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "user should be able to see \"Authentication\" on the authentication page",
             "match": {
               "arguments": [
@@ -376,10 +376,10 @@
           },
           {
             "result": {
-              "duration": 132829015,
+              "duration": 157222694,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "User enter \"ndueso.utuk\" on the crete an account filed on the authentication page",
             "match": {
               "arguments": [
@@ -394,10 +394,10 @@
           },
           {
             "result": {
-              "duration": 79038723,
+              "duration": 55329188,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "user click on Create an account button on the authentication page",
             "match": {
               "location": "Singin.userClickOnCreateAnAccountButtonOnTheAuthenticationPage()"
@@ -406,16 +406,16 @@
           },
           {
             "result": {
-              "duration": 1362164691,
+              "duration": 5250428370,
               "status": "passed"
             },
             "comments": [
               {
-                "line": 14,
+                "line": 13,
                 "value": "# Create an Account"
               }
             ],
-            "line": 15,
+            "line": 14,
             "name": "user select Mr for Title on the personal information page",
             "match": {
               "location": "Singin.userSelectMrForTitleOnThePersonalInformationPage()"
@@ -424,10 +424,10 @@
           },
           {
             "result": {
-              "duration": 212231413,
+              "duration": 112425635,
               "status": "passed"
             },
-            "line": 16,
+            "line": 15,
             "name": "user enter First Name \"First Name\" on the personal information page",
             "match": {
               "arguments": [
@@ -442,10 +442,10 @@
           },
           {
             "result": {
-              "duration": 139787793,
+              "duration": 101288403,
               "status": "passed"
             },
-            "line": 17,
+            "line": 16,
             "name": "user enter Last Name \"Last Name\" on the personal information page",
             "match": {
               "arguments": [
@@ -460,28 +460,10 @@
           },
           {
             "result": {
-              "duration": 88539831,
+              "duration": 153009621,
               "status": "passed"
             },
-            "line": 18,
-            "name": "user enter Email \"Email\" on the personal information page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Email",
-                  "offset": 18
-                }
-              ],
-              "location": "Singin.userEnterEmailOnThePersonalInformationPage(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 170474225,
-              "status": "passed"
-            },
-            "line": 19,
+            "line": 17,
             "name": "user enter Password \"Password\" on the personal information page",
             "match": {
               "arguments": [
@@ -496,10 +478,10 @@
           },
           {
             "result": {
-              "duration": 36145907,
+              "duration": 28438626,
               "status": "passed"
             },
-            "line": 20,
+            "line": 18,
             "name": "User should be able to see page heading \"create an account\" on the create an account page",
             "match": {
               "arguments": [
@@ -514,10 +496,10 @@
           },
           {
             "result": {
-              "duration": 37010627,
+              "duration": 23389980,
               "status": "passed"
             },
-            "line": 21,
+            "line": 19,
             "name": "User should be ale to see sub Heading \"your personal information\" on the create an account page",
             "match": {
               "arguments": [
@@ -532,10 +514,10 @@
           },
           {
             "result": {
-              "duration": 114454102,
+              "duration": 85320181,
               "status": "passed"
             },
-            "line": 22,
+            "line": 20,
             "name": "user select DOB day \"1\" on the personal information page",
             "match": {
               "arguments": [
@@ -550,10 +532,10 @@
           },
           {
             "result": {
-              "duration": 115167608,
+              "duration": 126637947,
               "status": "passed"
             },
-            "line": 23,
+            "line": 21,
             "name": "user select DOB Month \"1\" on the personal information page",
             "match": {
               "arguments": [
@@ -568,10 +550,10 @@
           },
           {
             "result": {
-              "duration": 117217460,
+              "duration": 92244015,
               "status": "passed"
             },
-            "line": 24,
+            "line": 22,
             "name": "user select DOB Year \"2020\" on the personal information page",
             "match": {
               "arguments": [
@@ -586,16 +568,16 @@
           },
           {
             "result": {
-              "duration": 94953597,
+              "duration": 107589843,
               "status": "passed"
             },
             "comments": [
               {
-                "line": 25,
+                "line": 23,
                 "value": "#Your Address"
               }
             ],
-            "line": 26,
+            "line": 24,
             "name": "user enter First Name \"First Name\" on the your address filed",
             "match": {
               "arguments": [
@@ -610,10 +592,10 @@
           },
           {
             "result": {
-              "duration": 86029878,
+              "duration": 94101837,
               "status": "passed"
             },
-            "line": 27,
+            "line": 25,
             "name": "user enter Last Name \"Last Name\" on the your address filed",
             "match": {
               "arguments": [
@@ -628,10 +610,10 @@
           },
           {
             "result": {
-              "duration": 71733541,
+              "duration": 87474237,
               "status": "passed"
             },
-            "line": 28,
+            "line": 26,
             "name": "user enter Company \"Company\" on the your address filed",
             "match": {
               "arguments": [
@@ -646,10 +628,10 @@
           },
           {
             "result": {
-              "duration": 74011216,
+              "duration": 86358032,
               "status": "passed"
             },
-            "line": 29,
+            "line": 27,
             "name": "user enter Address \"Address\" on the your address filed",
             "match": {
               "arguments": [
@@ -664,10 +646,10 @@
           },
           {
             "result": {
-              "duration": 46649870,
+              "duration": 60102062,
               "status": "passed"
             },
-            "line": 30,
+            "line": 28,
             "name": "user enter Address (Line 2) \"Address (Line 2)\" on the your address filed",
             "match": {
               "arguments": [
@@ -686,10 +668,10 @@
           },
           {
             "result": {
-              "duration": 59461232,
+              "duration": 72624361,
               "status": "passed"
             },
-            "line": 31,
+            "line": 29,
             "name": "user enter City \"City\" on the your address filed",
             "match": {
               "arguments": [
@@ -704,10 +686,10 @@
           },
           {
             "result": {
-              "duration": 100106996,
+              "duration": 76752692,
               "status": "passed"
             },
-            "line": 32,
+            "line": 30,
             "name": "user select State \"1\" on the your address filed",
             "match": {
               "arguments": [
@@ -722,10 +704,10 @@
           },
           {
             "result": {
-              "duration": 72390429,
+              "duration": 80731572,
               "status": "passed"
             },
-            "line": 33,
+            "line": 31,
             "name": "user enter Zip/Postal Code \"00000\" on the your address filed",
             "match": {
               "arguments": [
@@ -740,10 +722,10 @@
           },
           {
             "result": {
-              "duration": 74927831,
+              "duration": 52805153,
               "status": "passed"
             },
-            "line": 34,
+            "line": 32,
             "name": "user select Country \"21\" on the your address filed",
             "match": {
               "arguments": [
@@ -758,10 +740,10 @@
           },
           {
             "result": {
-              "duration": 113369787,
+              "duration": 103592286,
               "status": "passed"
             },
-            "line": 35,
+            "line": 33,
             "name": "user enter Additional information \"Additional information\" on the your address filed",
             "match": {
               "arguments": [
@@ -776,10 +758,10 @@
           },
           {
             "result": {
-              "duration": 100634532,
+              "duration": 95540666,
               "status": "passed"
             },
-            "line": 36,
+            "line": 34,
             "name": "user enter Home phone \"Home phone\" on the your address filed",
             "match": {
               "arguments": [
@@ -794,10 +776,10 @@
           },
           {
             "result": {
-              "duration": 94931065,
+              "duration": 101376558,
               "status": "passed"
             },
-            "line": 37,
+            "line": 35,
             "name": "user enter Mobile phone \"Mobile phone\" on the your address filed",
             "match": {
               "arguments": [
@@ -812,10 +794,10 @@
           },
           {
             "result": {
-              "duration": 216951510,
+              "duration": 219245947,
               "status": "passed"
             },
-            "line": 38,
+            "line": 36,
             "name": "user enter Assign an address \"Assign an address alias for future reference\" on the your address filed",
             "match": {
               "arguments": [
@@ -830,10 +812,10 @@
           },
           {
             "result": {
-              "duration": 1093949417,
+              "duration": 45755887,
               "status": "passed"
             },
-            "line": 39,
+            "line": 37,
             "name": "User click on the Register Button on the your address filed",
             "match": {
               "location": "Singin.userClickOnTheRegisterButtonOnTheYourAddressFiled()"
@@ -842,10 +824,10 @@
           },
           {
             "result": {
-              "duration": 28280332,
+              "duration": 6205166544,
               "status": "passed"
             },
-            "line": 40,
+            "line": 38,
             "name": "User should be able to see alias error \"alias is too long. Maximum length: 32\" message displayed on the create an account page",
             "match": {
               "arguments": [
@@ -860,10 +842,10 @@
           },
           {
             "result": {
-              "duration": 26816662,
+              "duration": 20832309,
               "status": "passed"
             },
-            "line": 41,
+            "line": 39,
             "name": "User should be able to see phone error \"phone is invalid.\"message displayed on the create an account page",
             "match": {
               "arguments": [
@@ -878,10 +860,10 @@
           },
           {
             "result": {
-              "duration": 28149528,
+              "duration": 21313350,
               "status": "passed"
             },
-            "line": 42,
+            "line": 40,
             "name": "User should be able to see phone mobile error \"phone_mobile is invalid.\" message displayed on the create an account page",
             "match": {
               "arguments": [
@@ -891,6 +873,436 @@
                 }
               ],
               "location": "Singin.userShouldNbeAbleToSeePhoneMobileErrorMessageDisplayedOnTheCreateAnAccountPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146803493,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user enter Password \"Password\" on the personal information page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 21
+                }
+              ],
+              "location": "Singin.userEnterPasswordOnThePersonalInformationPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111376748,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enter Assign an address \"address alias\" on the your address filed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "address alias",
+                  "offset": 30
+                }
+              ],
+              "location": "Singin.userEnterAssignAnAddressOnTheYourAddressFiled(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159063711,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user enter Home phone \"07429286755\" on the your address filed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07429286755",
+                  "offset": 23
+                }
+              ],
+              "location": "Singin.userEnterHomePhoneOnTheYourAddressFiled(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126427152,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user enter Mobile phone \"07429286755\" on the your address filed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07429286755",
+                  "offset": 25
+                }
+              ],
+              "location": "Singin.userEnterMobilePhoneOnTheYourAddressFiled(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8545914307,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User click on the Register Button on the your address filed",
+            "match": {
+              "location": "Singin.userClickOnTheRegisterButtonOnTheYourAddressFiled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32938650,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user should be able to see \"My account\" on the authentication page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My account",
+                  "offset": 28
+                }
+              ],
+              "location": "Singin.userShouldBeAbleToSeeOnTheAuthenticationPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10557971210,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the landing page on the automation practice page",
+            "match": {
+              "location": "ContactUs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2226368525,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "User login to the account,find most expensive dress and add to the cart and user logout",
+        "description": "",
+        "id": "sign-in-feature;user-login-to-the-account,find-most-expensive-dress-and-add-to-the-cart-and-user-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 72266457,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7919395228,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User click on sign in button on the landing page",
+            "match": {
+              "location": "Singin.userHoverOnTheFirstImageOnTheLandingPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30727870,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User should be able to see test \"Already registered?\" on the authentication page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Already registered?",
+                  "offset": 33
+                }
+              ],
+              "location": "Singin.userShouldBeAbleToSeeTestOnTheAuthenticationPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 196325949,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user enter email address on the authentication sign in page",
+            "match": {
+              "location": "Singin.userEnterEmailAddressOnTheAuthenticationSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111394105,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user enter password on the authentication sign in page",
+            "match": {
+              "location": "Singin.userEnterPasswordOnTheAuthenticationSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9125503314,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user click on sign in button on the authentication sign in page",
+            "match": {
+              "location": "Singin.userClickOnSignInButtonOnTheAuthenticationSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23994985,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user should be able to see \"My account\" on the authentication page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My account",
+                  "offset": 28
+                }
+              ],
+              "location": "Singin.userShouldBeAbleToSeeOnTheAuthenticationPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000101127,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user click on dresses button on the my account page",
+            "match": {
+              "location": "Singin.userClickOnDressesButtonOnTheMyAccountPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7195381532,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user click on Evening dress on the my category page",
+            "match": {
+              "location": "Singin.userClickOnEveningDressOnTheMyCategoryPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126736106,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User Click on add to cart on the dress",
+            "match": {
+              "location": "Singin.userClickOnAddToCartOnTheDress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11126823911,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 59,
+                "value": "#    Then User should be able to see \"Product successfully added to your shopping cart\" on displayed"
+              }
+            ],
+            "line": 60,
+            "name": "user click on the sign out button on the account page",
+            "match": {
+              "location": "Singin.userClickOnTheSignOutButtonOnTheAccountPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9092232649,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the landing page on the automation practice page",
+            "match": {
+              "location": "ContactUs.userNavigatesToTheLandingPageOnTheAutomationPracticePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2259592920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "User login to the account verify the item is still in the cart",
+        "description": "",
+        "id": "sign-in-feature;user-login-to-the-account-verify-the-item-is-still-in-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 70494052,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10598590439,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User click on sign in button on the landing page",
+            "match": {
+              "location": "Singin.userHoverOnTheFirstImageOnTheLandingPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26238358,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User should be able to see test \"Already registered?\" on the authentication page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Already registered?",
+                  "offset": 33
+                }
+              ],
+              "location": "Singin.userShouldBeAbleToSeeTestOnTheAuthenticationPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147697863,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user enter email address on the authentication sign in page",
+            "match": {
+              "location": "Singin.userEnterEmailAddressOnTheAuthenticationSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115301767,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user enter password on the authentication sign in page",
+            "match": {
+              "location": "Singin.userEnterPasswordOnTheAuthenticationSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10589010203,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user click on sign in button on the authentication sign in page",
+            "match": {
+              "location": "Singin.userClickOnSignInButtonOnTheAuthenticationSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23088096,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user should be able to see \"My account\" on the authentication page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My account",
+                  "offset": 28
+                }
+              ],
+              "location": "Singin.userShouldBeAbleToSeeOnTheAuthenticationPage(String)"
             },
             "keyword": "Then "
           }

@@ -8,6 +8,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.concurrent.TimeUnit;
 
@@ -33,9 +36,10 @@ public class Hook extends BaseUtil {
         base.Driver.manage().window().maximize();
 
 
-
-//        System.setProperty("webdriver.firefox.marionette", "C/geckodriver.exe");
+//        System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/C/geckodriver");
 //        base.Driver = new FirefoxDriver();
+//        base.Driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+//        base.Driver.manage().window().maximize();
 
     }
 

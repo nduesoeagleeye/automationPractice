@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>groupId</groupId>
-    <artifactId>Tui2_Project</artifactId>
+    <artifactId>automationPractice</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <build>
@@ -39,7 +39,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>Tui2_Project</projectName>
+                            <projectName>automationPractice</projectName>
                             <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                         </configuration>
@@ -56,13 +56,6 @@
             <artifactId>cucumber-java</artifactId>
             <version>1.2.5</version>
         </dependency>
-
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-jvm</artifactId>
-            <version>4.7.2</version>
-        </dependency>
-
 
         <dependency>
             <groupId>info.cukes</groupId>
