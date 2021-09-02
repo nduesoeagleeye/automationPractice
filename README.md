@@ -1,2 +1,2 @@
-# Tui2_Project
+# AUtomationPractice
 UI Test Atomation
